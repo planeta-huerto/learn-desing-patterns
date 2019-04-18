@@ -9,13 +9,25 @@ Todos los ejemplos son ejecutables por linea de comandos
 
 Todos los ejemplos desarrollados van acompañados por test unitarios.
 
+Para instalar dependencias
+
+```
+composer install -o
+```
+
+Para ejecutar los test:
+
+```
+./vendor/bin/phpunit
+```
+
 Patrones explicados
 -----
 * Factory
+* Builder
 * Decorator
 * Chain
 * Specification
-* Builder
 * Command Handler
 * Resolver
 * Calculator

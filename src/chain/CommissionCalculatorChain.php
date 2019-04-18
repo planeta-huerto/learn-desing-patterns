@@ -21,7 +21,7 @@ class CommissionCalculatorChain
     }
 
 
-    public function supports(CommissionContextInterface $context)
+    public function supports(CommissionContextInterface $context): bool
     {
         return true;
     }
@@ -30,7 +30,7 @@ class CommissionCalculatorChain
      * @inheritdoc
      * @throws Exception
      */
-    public function calculate(CommissionContextInterface $context)
+    public function calculate(CommissionContextInterface $context): Money
     {
         foreach ($this->calculators as $calculator) {
             /** @var $calculator CommissionCalculatorInterface */

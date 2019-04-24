@@ -55,3 +55,5 @@ Specification
 -----
 
 Construye una especificación clara de las reglas de negocios, donde los objetos se pueden verificar. La clase de especificación compuesta tiene un método que devuelve verdadero o falso dependiendo de si el objeto dado satisface la especificación.
+
+

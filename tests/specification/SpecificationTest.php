@@ -12,7 +12,7 @@ class SpecificationTest extends TestCase
     /**
      * @test
      */
-    public function given_specifications_price_and_item_when_is_satisfied_by_than_return_false()
+    public function given_specifications_price_and_item_when_is_satisfied_by_then_return_false()
     {
         $specificationPrice = new PriceSpecification(50,90);
         $specificationPriceOther = new PriceSpecification(101,200);
@@ -25,7 +25,7 @@ class SpecificationTest extends TestCase
     /**
      * @test
      */
-    public function given_specifications_price_and_item_when_is_satisfied_by_than_return_true()
+    public function given_specifications_price_and_item_when_is_satisfied_by_then_return_true()
     {
         $specificationPrice = new PriceSpecification(50,90);
         $specificationPriceOther = new PriceSpecification(101,200);

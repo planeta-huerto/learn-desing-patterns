@@ -1,6 +1,6 @@
 <?php
 
-namespace Test\Chain;
+namespace Tests\Chain;
 
 use Exception;
 use Patterns\Chain\CommissionCalculatorChain;

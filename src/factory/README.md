@@ -1,7 +1,8 @@
-#FACTORY
+# FACTORY
 
-##TIPO
+## TIPO
 Patrón creacional
 
-##UML
+## UML
+
 ![Factory](factory.png)
